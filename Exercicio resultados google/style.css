@@ -1,0 +1,98 @@
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    justify-content: left;
+}
+
+.container img {
+    margin-left: 50px;
+}
+
+figure img {
+    margin-left: 50px;
+}
+
+figure {
+    display: flex;
+    justify-content: right;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.pesquisar {
+    margin-right: 330px;
+    margin-top: 45px;
+}
+
+input[type="button"] {
+  background-color: rgb(245, 245, 245);
+  margin-left: 10px;
+  width: 500px;
+  height: 40px;
+  text-align: start;
+  font-size: 15px;
+  padding: 10px;
+  border: 1px solid rgba(192, 192, 192, 0.205);
+  border-radius: 25px;
+}
+
+.minha-imagem img{
+    border:1px;
+    border-radius: 50px;    
+}
+
+.opcoes ul{
+    display: flex;
+    margin-top: -40px;
+    font-size: 15px;
+    color: rgba(114, 113, 113, 0.836);
+    margin-left: 90px;
+}
+
+.opcoes p:hover{
+   color: rgb(3, 3, 235);
+   border-bottom: 2px solid rgb(3, 3, 235);
+}
+
+.divisao {
+    height: 2px;
+    width: 100%;
+    background-color: rgba(192, 192, 192, 0.205);
+    margin-top: -10px;
+}
+
+article {
+    display: inline;
+}
+
+.resultados h5 {
+    color: rgb(172, 168, 168);
+    margin-left: 170px;
+}
+
+section {
+    margin-left: 170px;
+}
+
+section h3 {
+    color: rgba(44, 2, 110, 0.986);
+}
+
+a {
+    color: rgb(12, 138, 7);
+}
+
+.sobre {
+    color:rgb(73, 70, 70) ;
+}
+
